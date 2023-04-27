@@ -1,0 +1,19 @@
+.main{
+    padding-top: 1.6vw;
+} 
+.main input{
+    border-radius: 0.4vw;
+    padding: 6px;
+}
+.main button{
+    margin-left: 2vh;
+    height: 4vh;
+    width: 9vw;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(222, 217, 217);
+}
+.main button:hover{
+    background-color: rgb(144, 142, 142);
+}

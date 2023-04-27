@@ -1,0 +1,9 @@
+.main{
+    height: 100vh;
+    max-width: 100%;
+    margin: auto;
+    background-color: rgb(230, 241, 251);
+    border-radius: 15px;
+    text-align: center;
+
+}

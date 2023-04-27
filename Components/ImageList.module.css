@@ -1,0 +1,14 @@
+.main{
+    display: flex;
+    height: 70vh;
+    
+    max-width:90vw ;
+    margin: auto;
+    margin-top: 3vw;
+    flex-wrap: wrap;
+}
+.noDataFound{
+    margin-top: 10vw;
+    font-size: 2rem;
+    height: 50vh;
+}
