@@ -1,6 +1,6 @@
 .main{
     display: flex;
-    height: 70vh;
+    height: auto;
     
     max-width:90vw ;
     margin: auto;

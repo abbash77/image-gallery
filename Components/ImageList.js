@@ -17,9 +17,6 @@ const ImageList = (props) => {
   const handleDrop = (event, index) => {
     index=index+(props.currentPage-1)*props.postsPerPage
     const sourceIndex = parseInt(event.dataTransfer.getData("index"))+(props.currentPage-1)*props.postsPerPage;
-    // parseInt(sourceIndex)
-    console.log(sourceIndex+6)
-    console.log(index)
     const newImages = [...props.imgAll];
     const temp = newImages[index];
     newImages[index] = newImages[sourceIndex];

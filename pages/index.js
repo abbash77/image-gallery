@@ -94,6 +94,11 @@ export default function Home() {
 
 
   const submitHandler=(val)=>{
+    if(val.trim()===""){
+      setData(image)
+      return
+    }
+    setCurrentPage(1)
     const filteredData=image.filter((item=>{
       return item.description.toLowerCase().trim()===val.toLowerCase().trim()
     }))

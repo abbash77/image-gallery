@@ -5,9 +5,9 @@ const Search = (props) => {
   const searchInputRef=useRef()
   const submitHandler=(event)=>{
     event.preventDefault();
-    if(searchInputRef.current.value.trim().length===0){
-      return;
-    }
+    // if(searchInputRef.current.value.trim().length===0){
+    //   return;
+    // }
     props.onSubmit(searchInputRef.current.value)
     console.log(searchInputRef.current.value)
   }
