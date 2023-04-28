@@ -10,10 +10,10 @@ const FileUpload = (props) => {
   
       const formData = new FormData();
   
-      Array.from(event.target.files).forEach((file, index) => {
-        formData.append(event.target.name, file);
-      });
-      // formData.append("abbas", event.target.files[0])
+      // Array.from(event.target.files).forEach((file, index) => {
+      //   formData.append(event.target.name, file);
+      // });
+      formData.append("abbas", event.target.files[0])
 
 
       props.onChange(formData);
